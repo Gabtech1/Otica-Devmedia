@@ -1,0 +1,55 @@
+.container {
+    padding: 100px 20px 70px 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    max-width: 1024px;
+
+}
+
+.contact_bg {
+    background-color: #05031b;
+}
+
+.container:nth-child(1){
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.content h3{
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.sides{
+    padding: 10px;
+    text-align: left;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sides img{
+    height: 15px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.sides span{
+    font-size: 1rem;
+}

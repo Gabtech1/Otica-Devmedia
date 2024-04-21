@@ -1,0 +1,53 @@
+.about_section{
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1024px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg{
+    background-color: #f8f7ff;
+}
+
+.about_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about_cards img{
+    width: 50%;
+    max-height: 300px;
+    border: 1px solid #a2adad;
+}
+
+.card_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+.about_description{
+    margin: 20px 5px 60px 5px;
+    line-height: 1.8;
+}
+
+.card_info h4 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+.card_info p {
+    padding: 5px 30px;
+    font-size: 1.3rem;
+    color: #4a4a4a;
+  }
+
