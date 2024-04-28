@@ -26,6 +26,7 @@
 
 .content{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 50px;
 }
@@ -52,4 +53,29 @@
 
 .sides span{
     font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .sides{
+        gap: 10px;
+    }
+
+    .content h3{
+        margin-bottom: 15px;
+    }
+
+    .container:nth-child(1){
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .content h3{
+        margin-bottom: 10px;
+    }
+
+    .container:nth-child(1){
+        font-size: 0.9rem;
+    }
+    
 }

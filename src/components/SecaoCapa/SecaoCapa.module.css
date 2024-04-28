@@ -1,8 +1,9 @@
 .capa {
-    height: 90vh;
+    height: 95vh;
     background-image: url('../../../public/capa.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .capa_container{
@@ -14,13 +15,14 @@
     width: 50%;
     padding: 20px;
     gap: 20px;
-    
 }
 
 .capa_container h1,
 .capa_container p {
     font-family: system-ui;
     max-width: 500px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .capa_container p{
@@ -29,9 +31,66 @@
 }
 
 .capa_container h1{
-    font-size: 36px;
     color: #fff;
     text-transform: uppercase;
     font-size: 55px;
     line-height: 70px;
+}
+
+@media (max-width: 1440px) {
+    .capa{
+        height: 90vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .capa_container h1,
+    .capa_container p {
+        max-width: 400px;
+    }
+    .capa_container h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    .capa_container p{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 780px) {
+    .capa{
+        background-position: center right -200px;
+    }
+    .capa_container h1,
+    .capa_container p {
+        max-width: 350px;
+    }
+    .capa_container h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .capa_container p{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .capa{
+        background-position: center right -500px;
+    }
+    .capa_container h1,
+    .capa_container p {
+        max-width: 250px;
+    }
+    .capa_container h1{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .capa_container p{
+        font-size: 22px;
+    }
+    .capa_container{
+        align-items: center;
+        width: 100%;
+    }
 }

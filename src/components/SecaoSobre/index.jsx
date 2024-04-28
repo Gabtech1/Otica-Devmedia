@@ -10,7 +10,8 @@ export default function SecaoSobre() {
                 <h3>QUEM SOMOS NÓS?</h3>
                 <p className={style.about_description}>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo. </p>
                     <div className={style.about_cards}>
-                        <Image src={Filial} />
+                        <div className={style.card_pic}><Image src={Filial} /></div>
+                        
                         <div className={style.card_info}>
                             <h4>Nossas Filiais</h4>
                             <p>Hoje temos mais de 20 filiais pelo Brasil e na América</p>
@@ -19,7 +20,7 @@ export default function SecaoSobre() {
                             <h4>Atendimento flexível</h4>
                             <p>Nossa equipe possui é treinada para te atender</p>
                         </div>
-                        <Image src={Atendimento} />
+                       <div className={style.card_pic}><Image src={Atendimento} /></div> 
                     </div>
                 </div>
         </section>

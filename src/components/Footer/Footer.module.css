@@ -5,3 +5,9 @@
     color: #c4c4c4;
     text-align: center;
 }
+
+@media (max-width: 480px) {
+    .footer{
+        font-size: 14px;
+    }
+}

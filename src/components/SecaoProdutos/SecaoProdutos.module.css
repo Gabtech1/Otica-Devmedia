@@ -69,3 +69,19 @@
     align-items: center;
     gap: 10px;
 }
+
+@media (max-width: 480px) {
+    .title{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .items_container{
+        gap: 10px;
+    }
+    .items{
+        width: 300px;
+    }
+    .list{
+        align-items: flex-start;
+    }
+}
