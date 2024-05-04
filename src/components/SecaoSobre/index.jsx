@@ -1,5 +1,5 @@
-import Filial from '../../../public/loja.png';
-import Atendimento from '../../../public/atendimento.png';
+import Filial from '../../../public/loja.webp';
+import Atendimento from '../../../public/atendimento.webp';
 import Image from 'next/image';
 import style from './SecaoSobre.module.css';
 
