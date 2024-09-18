@@ -37,6 +37,8 @@
     line-height: 70px;
 }
 
+/* Media queries */
+
 @media (max-width: 1440px) {
     .capa{
         height: 90vh;

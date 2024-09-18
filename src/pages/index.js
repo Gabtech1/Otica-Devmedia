@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "@/styles/Home.module.css";
 import Topo from '@/components/Topo'
 import SecaoCapa from '@/components/SecaoCapa';
 import SecaoProdutos from '@/components/SecaoProdutos';

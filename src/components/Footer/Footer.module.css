@@ -6,6 +6,7 @@
     text-align: center;
 }
 
+/* Media queries*/
 @media (max-width: 480px) {
     .footer{
         font-size: 14px;

@@ -53,6 +53,8 @@
     color: #4a4a4a;
 }
 
+/* Media queries */
+
 @media (max-width: 780px) {
     .card_info{
         height: 250px;

@@ -11,4 +11,4 @@ Projeto proposto durante o curso de React da Devmedia<br/>
 </p>
 
 ## 💻 Projeto
-- [Acesse o projeto, aqui](https://otica-devmedia.vercel.app/)
+- [Acesse o projeto](https://otica-devmedia.vercel.app/)

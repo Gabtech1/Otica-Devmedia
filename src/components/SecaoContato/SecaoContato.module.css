@@ -55,6 +55,8 @@
     font-size: 1rem;
 }
 
+/* Media queries */
+
 @media (max-width: 1024px) {
     .sides{
         gap: 10px;

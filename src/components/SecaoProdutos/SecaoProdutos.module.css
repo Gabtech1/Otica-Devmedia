@@ -70,6 +70,8 @@
     gap: 10px;
 }
 
+/* Media queries */
+
 @media (max-width: 480px) {
     .title{
         font-size: 28px;
